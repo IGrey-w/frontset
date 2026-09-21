@@ -1,0 +1,19 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ],
+  "compilerOptions": {
+      // ... 其他的配置不要动 ...
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      }
+  },
+  // ... 下面的也不要动 ...
+}
